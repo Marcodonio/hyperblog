@@ -1,25 +1,28 @@
 body{
     text-align: center;
     font-family: Helvetica, sans-serif;
-    color: red;
     font-size: 10px;
     margin: 0;
     padding: 0;
 }
-#cabecera{
-    background: #33a;
-    color: white;
-    margin: 0;
-    padding: 0.5em;
-}
+
 #container{
     width: 70%;
     padding: 1em;
-    text-align: left;
+    text-align: center;
     border: 1px solid #000;
     margin: 0 auto;
 }
 
 #container h1{
-    font-size: 20px;
+    font-size: 25px;
+}
+
+#container p{
+    font-size: 15px;
+}
+
+#mensajeFinal h2{
+    font-size: 15px;
+    color: red;
 }
